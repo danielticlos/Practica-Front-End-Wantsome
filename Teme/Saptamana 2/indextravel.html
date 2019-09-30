@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> travel reservation form</title>
+    </head>
+    <body>
+        <h1> Travel reservation code</h1>
+        <p> <strong> * denotes mandatory</strong></p>
+        <div>
+        <form action="indextravel.html">
+            <label for="Full name*:">Full name*:</label> <br>
+            <input 
+                type="text" 
+                id="FirstName LastName"
+                placeholder="FirstName LastName"
+                required> <br>
+            <label for="Email address*:"> Email address*:</label> <br>
+            <input
+                type=e-mail
+                id="EMAIL ADDRESS"
+                placeholder="EMAIL ADDRESS"
+                required> <br>
+            <label for="Select Tour Package*:"> Select Tour Package*:</label><br>
+            <select name="Select Tour Package*:"> <br>
+                <option value="goa">goa</option>
+                <option value="1">1</option>
+                <option value="2"required>2 </option>
+            </select><br>
+            <label for="Arrival date*:">Arrival date*:</label> <br>
+            <input 
+                type="date" 
+                id="Date"
+                placeholder="Date"
+                required> <br>
+            <label for="Number of persons*:">Number of persons*:</label> <br>
+            <input
+                type="unknown_type"
+                id="number"
+                placeholder="unknown_type"
+                required> <br>
+            <label for="What would you like to avail?*"> What would you like to avail?* </label> <br>
+            <input
+                type="checkbox"
+                name="boarding"
+                value="boarding">Boarding <br> <input
+                type="checkbox"
+                name="fooding"
+                value="fooding">Fooding <br>
+                <input
+                type="checkbox"
+                name="sight sccing"
+                value="sight sccing">Sight sccing <br>
+            <label for="Discount cupon code:">Discount cupon code:</label> <br>
+            <input
+                type="unknown_type"
+                id="unknown_type"
+                placeholder="unknown_type"> <br>
+            Terms and conditions*: <br>
+                <input
+                    type="radio"
+                    name="button 1"
+                    value="agree"
+                    checked> I agree 
+                <input
+                    type="radio"
+                    name="button 2"
+                    value="disagree"> I disagree <br>
+                <input
+                    type="submit" 
+                    value="Complete reservation">
+            </form>
+        </div>
+    </body>
+</html>
