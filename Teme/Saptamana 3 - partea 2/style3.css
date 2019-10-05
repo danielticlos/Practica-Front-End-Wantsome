@@ -1,0 +1,67 @@
+
+body {
+    margin-bottom: 100px;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+li::before {
+    content:"\2022";
+    color: black;
+    display: inline-block;
+    display:black;
+    width:1em;
+    height: 1em;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #555;
+    color: wheat;
+}
+.container {
+    width: 130px;
+    height: 140px;
+    border: solid purple;
+    position: static;
+    color: purple;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.section1 {
+    height:30px;
+    border: solid yellow;
+    margin-left: 152px;
+    margin-top: -166px;
+    position: relative;
+    padding: 10px;
+}
+.section2 {
+    height:100px;
+    border: solid yellow;
+    position: relative;
+    margin-left: 152px;
+    padding: 10px;
+    background-color: rgb(202, 197, 197);
+}
+.section3 {
+    height:30px;
+    border: solid yellow;
+    margin-left: 152px;
+    position: relative;
+    padding: 10px;
+}
+header {
+    border: solid green;
+    /* width: 1300px;
+    height: 237px; */
+    box-sizing: border-box;
+}
+footer {
+    border: solid turquoise;
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 300px;
+}
