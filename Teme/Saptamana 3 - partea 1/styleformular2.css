@@ -1,0 +1,11 @@
+body {
+    background-color: chocolate;
+}
+.buton [type=submit]{
+    background-color: coral;
+}
+textarea {
+    background-color: aqua;
+    width: 80px;
+    height: 80px;
+}

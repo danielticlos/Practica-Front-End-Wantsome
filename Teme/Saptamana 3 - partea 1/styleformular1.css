@@ -1,0 +1,30 @@
+body {
+    font-family: "Inconsolata";
+    background-color: aquamarine;
+}
+.Terms {
+    font-size: 20px;
+}
+input[type=text]:focus {
+    color: red;  
+}
+input[type=e-mail]:focus {
+    background-color: red;  
+}
+h1 {
+    color: brown;
+}
+input[type] {
+    background-color:whitesmoke;  
+} 
+input[type=submit]:hover {
+    background-color: blueviolet;
+}
+input[type=submit] {
+    background-color: blue;
+    color:white;
+}
+input[type=button] {
+    cursor:not-allowed;
+    opacity: 0.6px;
+}

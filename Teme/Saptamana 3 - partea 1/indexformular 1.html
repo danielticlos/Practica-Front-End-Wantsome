@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> travel reservation form</title>
+        <link rel="stylesheet" href="styleformular1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    </head>
+    <body>
+        <h1> Travel reservation code</h1>
+        <p> <strong> * denotes mandatory</strong></p>
+        <div>
+        <form action="indextravel.html">
+            Full name*:<br>
+            <input 
+                type="text" 
+                id="FirstNameLastName"
+                placeholder="FirstName LastName"
+                required> <br>
+            Email address*:<br>
+            <input
+                type="email"
+                id="email-address"
+                placeholder="EMAIL ADDRESS"
+                required> <br>
+            Select Tour Package*: <br>
+            <select name="Select Tour Package*:">
+                <option value="goa">goa</option>
+                <option value="1">1</option>
+                <option value="2">2 </option><br>
+            </select><br>
+            Arrival date*:<br>
+            <input 
+                type="date" 
+                id="data1"
+                placeholder="m/d/y"
+                required> <br>
+            Number of persons*:<br>
+            <input
+                type="number"
+                id="number"
+                placeholder="unknown_type"
+                required> <br>
+            What would you like to avail?*<br>
+            <input
+                type="checkbox"
+                name="boarding"
+                value="boarding">Boarding <br> <input
+                type="checkbox"
+                name="fooding"
+                value="fooding">Fooding <br>
+                <input
+                type="checkbox"
+                name="sight sccing"
+                value="sight sccing">Sight sccing <br>
+            Discount cupon code:<br>
+            <input
+                type="text"
+                id="unknown_type"
+                placeholder="unknown_type"><br>
+            <div class="Terms"> Terms and conditions*:</div>
+                <input
+                    type="radio"
+                    name="button"
+                    value="agree"
+                    checked> I agree 
+                <input
+                    type="radio"
+                    name="button"
+                    value="disagree"> I disagree <br>
+                <input
+                    type="submit" 
+                    value="Complete reservation">
+                <input    
+                    type="button"
+                    value="cancel"><br><br>
+        </form>
+        </div>
+    </body>
+</html>
