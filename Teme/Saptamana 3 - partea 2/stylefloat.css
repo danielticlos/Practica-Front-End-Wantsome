@@ -1,0 +1,73 @@
+
+body {
+    margin-bottom:auto;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+li::before {
+    content:"\2022";
+    color: black;
+    display: inline-block;
+    width:1em;
+    height: 1em;
+}
+li:hover {
+    background-color: #555;
+    color: wheat;
+}
+.container {
+    float: left;
+    height: 140px;
+    width: 130px;
+    padding: 10px;
+    border: solid purple;
+    position: relative;
+    color: purple;
+    background-color: aliceblue;
+    float:left;
+}
+.a1 {
+    height:30px;
+    width: 1150px;
+    border: solid yellow;
+    position: relative;
+    padding: 10px;
+    float:left;
+    
+}
+.a2 {
+    height:100px;
+    background-color: rgb(202, 197, 197);
+    border: solid yellow;
+    position: relative;
+    padding: 10px;
+    float:right;
+    left:11.5%;
+    top:-112px;
+}
+.a3 {
+    height:30px;
+    width: 1150px;
+    border: solid yellow;
+    position: relative;
+    padding: 10px;
+    float:left;
+    left:11.5%;
+    top: -112px;
+}
+header {
+  border: solid green;
+  font:"Source Code Pro";
+  box-sizing: border-box;
+}
+footer {
+    border: solid turquoise;
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -1000px;
+    float: bottom;
+}
